@@ -1,5 +1,5 @@
 function test_example_NN
-load mnist_uint8;
+load mnist_uint8;%find it in data
 
 train_x = double(train_x) / 255;
 test_x  = double(test_x)  / 255;
